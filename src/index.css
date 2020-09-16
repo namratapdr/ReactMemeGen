@@ -34,7 +34,7 @@ body{
     align-items: center;
 }
 .memeForm {
-    padding: 20px;
+    padding:7px;
     width: 60%;
     display: flex;
     justify-content: space-around;
@@ -47,7 +47,16 @@ body{
     width:600px;
    
 }
+.meme{
+    width: 600px;
+    text-align: center;
+}
 @media (max-width:769px){
+    .meme{
+       text-align: center;
+        width: 400px;
+        height: 300px;
+    }
     .memeImage{
         background:transparent;
         height:300px;
@@ -61,6 +70,7 @@ body{
         flex-wrap: wrap;
     }
 }
+
 .memeImage img {
    mix-blend-mode: darken;
     border-radius:10px ;
@@ -89,7 +99,9 @@ button:hover{
     color: #3F3234;
 }
 .memeGenerator p {
-  
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     font-family: 'Roboto Slab', serif;
     font-size: 170%;
 }
@@ -99,7 +111,7 @@ button:hover{
 }
 #bottom{
     position:relative;
-    bottom:220px;
+    bottom:230px;
 }
 @media (max-width:769px){
     #top{
